@@ -28,7 +28,7 @@ In the future, I would like to clarify the relatioship between the displayed sto
 
 **MIT License**
 
-*Copyright (c) 2020 Abel Sanchez*
+*Copyright (c) 2021 Kathryn Michael*
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
