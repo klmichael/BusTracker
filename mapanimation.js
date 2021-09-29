@@ -16,7 +16,7 @@ var buses = [];
 var markers = [];
 var stops = []; 
 
-// Requests stop data from MBTA. Code provided.
+// Requests stop data from MBTA. Code provided and adjusted using the MBTA API.
 async function getBusStops(){
 	const url = 'https://api-v3.mbta.com/stops?filter[route_type]=3';
 	const response = await fetch(url);
@@ -25,7 +25,7 @@ async function getBusStops(){
 }
 
 // Updates stops array and adds a small red marker for each to the map
-// I added this code.
+// I adjusted this code from part of the earlier class exercise.
 async function mapStops() {
   stopData = await getBusStops();
   for (i = 0; i < stopData.length; i++){
@@ -74,7 +74,7 @@ function removeMarkers() {
 }
 
 // Removes existing bus markers and then adds new ones based on the latest buses array
-// This is based on provided code - I adjusted it to support the live data feed and added the pop-up.
+// This is based on provided code - I adjusted it to support the live data feed and added the pop-up. I utilized the Mapbox API to learn the Popup() method.
 function moveMarkers(busesArray) {
   removeMarkers();
   for (i = 0; i < busesArray.length; i++) {

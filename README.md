@@ -8,7 +8,7 @@ After doing the assignment, I continued to work on the code and added the follow
 - The program receives the for all MBTA buses currently running. It then maps this data in a different color and scale than the stops on the map. All of this data refreshes, removing the previous bus markers and adding the new markers, every 30 seconds.
 - Bus and stop icons have an associated pop up with the Bus's route number or the stop's name.
 
-*Original Author:* Dr. Abel Sanchez 
+*Original Author:* Dr. Abel Sanchez  
 *Additional Coding:* Kathryn Michael
 
 ## How to Run:
